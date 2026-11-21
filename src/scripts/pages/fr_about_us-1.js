@@ -16,7 +16,9 @@
                                         }
                                     }
 
-                                    updateMenu(savedLang || "fr");
+                                    // Page language wins: a saved choice from another page must not override it.
+    const pageLang = (document.documentElement.lang || "").slice(0, 2).toLowerCase();
+    updateMenu(pageLang || savedLang || "fr");
 
                                     dropdownItems.forEach(item => {
                                         item.addEventListener("click", function() {

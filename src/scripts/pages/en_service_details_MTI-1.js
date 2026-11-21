@@ -12,7 +12,9 @@
                                         if (fallback) fallback.style.display = "block";
                                     }
                                 }
-                                updateMenu(savedLang || "en");
+                                // Page language wins: a saved choice from another page must not override it.
+    const pageLang = (document.documentElement.lang || "").slice(0, 2).toLowerCase();
+    updateMenu(pageLang || savedLang || "en");
                                 dropdownItems.forEach(item => {
                                     item.addEventListener("click", function () {
                                         const lang = this.getAttribute("data-lang");

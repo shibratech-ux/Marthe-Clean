@@ -47,6 +47,22 @@ test('shared review module: safe rendering, 5 newest by createdAt + all-reviews 
     }
   }
 });
+test('mobile menu: built from the page-language menu, working close icon', async () => {
+  for (const page of (await readdir('src/pages')).filter(n => n.endsWith('.html'))) {
+    const html = await renderPage(page);
+    const lang = html.match(/<html[^>]*\blang="([a-z]{2})/)[1];
+    const ids = html.match(/id="main-menu"/g) || [];
+    assert.ok(ids.length <= 1, `${page}: duplicate #main-menu (meanmenu would clone the first one)`);
+    if (ids.length) {
+      assert.match(html, new RegExp(`<div class="karx-main-menu ${lang}"[^>]*>\\s*<nav id="main-menu">`), `${page}: #main-menu must be the ${lang} menu`);
+    }
+    assert.doesNotMatch(html, /side-info-close"[^>]*><i\s+class="fal /, `${page}: menu close icon uses unavailable Font Awesome Light`);
+  }
+  for (const name of (await readdir('src/scripts/pages')).filter(n => n.endsWith('-1.js'))) {
+    const source = await readFile(`src/scripts/pages/${name}`, 'utf8');
+    assert.doesNotMatch(source, /updateMenu\(savedLang \|\|/, `${name}: saved language must not override the page language`);
+  }
+});
 test('production build preserves entry point filenames', async () => {
   await build();
   for (const name of await readdir('src/pages')) await access(`dist/${name}`);

@@ -19,7 +19,9 @@
     }
 
     // Apply saved language or default to 'EN'
-    updateMenu(savedLang || "en");
+    // Page language wins: a saved choice from another page must not override it.
+    const pageLang = (document.documentElement.lang || "").slice(0, 2).toLowerCase();
+    updateMenu(pageLang || savedLang || "en");
 
     // Store and update language selection
     dropdownItems.forEach(item => {
