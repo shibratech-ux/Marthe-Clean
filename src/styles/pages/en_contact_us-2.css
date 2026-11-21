@@ -1,0 +1,37 @@
+
+  /* Loader styles */
+  .loader {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    animation: spin 0.6s linear infinite;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /* Disabled button */
+  button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+
+  /* Error message */
+  .error-message {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 4px;
+    display: none;
+  }
+
+  /* Field with error */
+  .error {
+    border: 1px solid red;
+  }
+    

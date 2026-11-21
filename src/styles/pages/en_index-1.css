@@ -1,0 +1,11 @@
+
+            /* Fine styling for all icons */
+            i {
+                font-weight: 100;   /* makes the stroke lighter */
+                margin-right: 8px;  /* space between icon and text */
+                font-size: 1em;   /* adjust the size */
+            }
+            i.fa-phone-flip {
+                transform: rotate(90deg); /* full rotation */
+            }
+        

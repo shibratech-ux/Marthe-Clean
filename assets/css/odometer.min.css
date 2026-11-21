@@ -1,0 +1,58 @@
+/* Conteneur odometer personnalisé */
+.odometer {
+  display: inline-block;
+  position: relative;
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.1em;
+  font-size: 3em;
+  color: #2c3e50;
+  background: #ecf0f1;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Chaque chiffre */
+.odometer .odometer-digit {
+  display: inline-block;
+  position: relative;
+}
+
+/* Ruban animé du chiffre */
+.odometer .odometer-digit .odometer-digit-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.odometer .odometer-digit .odometer-ribbon {
+  display: block;
+}
+
+.odometer .odometer-digit .odometer-ribbon-inner {
+  display: block;
+  backface-visibility: hidden;
+  transition: transform 1s;
+}
+
+/* Valeur affichée */
+.odometer .odometer-digit .odometer-value {
+  display: block;
+  text-align: center;
+  transform: translateZ(0);
+  font-weight: bold;
+}
+
+/* Animation montée */
+.odometer.odometer-animating-up .odometer-ribbon-inner {
+  transform: translateY(-100%);
+}
+
+/* Animation descente */
+.odometer.odometer-animating-down .odometer-ribbon-inner {
+  transform: translateY(0);
+}

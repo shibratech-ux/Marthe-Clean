@@ -1,0 +1,47 @@
+
+  /* Effet de hover classique */
+  #submitButton {
+    margin-top: 15px;
+    padding: 6px 14px;
+    background: #BB8B48;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  #submitButton:hover:not(:disabled) {
+    background: #A87338;
+    transform: scale(1.05);
+  }
+
+  /* Style bouton désactivé pendant envoi */
+  #submitButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  /* Spinner simple */
+  .spinner {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    animation: spin 0.8s linear infinite;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+
+  @keyframes spin {
+    0% { transform: translateY(-50%) rotate(0deg); }
+    100% { transform: translateY(-50%) rotate(360deg); }
+  }
+

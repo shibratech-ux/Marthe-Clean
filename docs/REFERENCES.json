@@ -1,0 +1,226 @@
+{
+  "de_service_details_MTI.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "index.html": {
+    "missing_local": [
+      "index.php"
+    ],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "en_contact_us.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "de_service_details_MTQ.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "en_service_details_MTI.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "fr_about_us.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "en_services.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "en_service_details_MTQ.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "fr_services.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "fr_service_details_MTU.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "en_about_us.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "de_avis.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.tailwindcss.com"
+    ]
+  },
+  "en_thank_you.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "de_service_details_MTU.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "fr_contact_us.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "de_thank_you.html": {
+    "missing_local": [
+      "index"
+    ],
+    "external": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "de_services.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "fr_service_details_MTI.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "en_index.html": {
+    "missing_local": [
+      "index.php"
+    ],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "fr_thank_you.html": {
+    "missing_local": [
+      "index"
+    ],
+    "external": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "de_about_us.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "fr_service_details_MTQ.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "de_contact_us.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "en_service_details_MTU.html": {
+    "missing_local": [],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "fr_index.html": {
+    "missing_local": [
+      "index.php"
+    ],
+    "external": [
+      "https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    ]
+  },
+  "assets/css/main.css": {
+    "missing_local": [
+      "../img/price/price2_bg.jpg"
+    ],
+    "external": [
+      "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
+    ]
+  },
+  "assets/css/fontawesome-all.min.css": {
+    "missing_local": [
+      "../fonts/fa-brands-400.eot",
+      "../fonts/fa-brands-400.html#fontawesome",
+      "../fonts/fa-brands-400.ttf",
+      "../fonts/fa-brands-400.woff",
+      "../fonts/fa-brands-400.woff2",
+      "../fonts/fa-brands-400d41d.eot?#iefix",
+      "../fonts/fa-duotone-900.eot",
+      "../fonts/fa-duotone-900.html#fontawesome",
+      "../fonts/fa-duotone-900.ttf",
+      "../fonts/fa-duotone-900.woff",
+      "../fonts/fa-duotone-900.woff2",
+      "../fonts/fa-duotone-900d41d.eot?#iefix",
+      "../fonts/fa-light-300.eot",
+      "../fonts/fa-light-300.html#fontawesome",
+      "../fonts/fa-light-300.ttf",
+      "../fonts/fa-light-300.woff",
+      "../fonts/fa-light-300.woff2",
+      "../fonts/fa-light-300d41d.eot?#iefix",
+      "../fonts/fa-regular-400.eot",
+      "../fonts/fa-regular-400.html#fontawesome",
+      "../fonts/fa-regular-400.ttf",
+      "../fonts/fa-regular-400.woff",
+      "../fonts/fa-regular-400.woff2",
+      "../fonts/fa-regular-400d41d.eot?#iefix",
+      "../fonts/fa-solid-900.eot",
+      "../fonts/fa-solid-900.html#fontawesome",
+      "../fonts/fa-solid-900.ttf",
+      "../fonts/fa-solid-900.woff",
+      "../fonts/fa-solid-900.woff2",
+      "../fonts/fa-solid-900d41d.eot?#iefix"
+    ],
+    "external": []
+  },
+  "assets/css/meanmenu.css": {
+    "missing_local": [
+      "../img/icon/close.html"
+    ],
+    "external": []
+  }
+}

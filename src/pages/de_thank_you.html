@@ -1,0 +1,379 @@
+
+<!Doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Martha Clean Besia</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/odometer.min.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/meanmenu.css">
+    <link rel="stylesheet" href="./assets/css/swipper.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+                  <link rel="stylesheet" href="./src/styles/pages/de_about_us-1.css">
+
+
+<link rel="stylesheet" href="./src/styles/pages/de_thank_you-2.css">
+
+</head>
+    
+<body>
+    <!-- karx-header-area-start -->
+    <!-- include:header-3d522ca2face.html -->
+    <!-- karx-header-area-end -->
+
+    
+    <!-- sidebar-expand-start -->
+    <div class="side-info">
+        <div class="offset-widget offset-logo mb-30 pb-20">
+            <div class="row align-items-center">
+                <div class="col-8"><a href="" class="side_logo"><img src="./assets/img/logo/logo.png"
+                            alt="Logo"></a></div>
+                <div class="col-4 text-end"><button id="nav-close" class="side-info-close"><i class="fas fa-xmark"></i></button></div>
+            </div>
+        </div>
+        <div class="mobile-menu fix"></div>
+    </div>
+    <div class="offcanvas-overlay"></div>
+    <!-- sidebar-expand-end -->
+    <!-- karx-breadcrumb-area-start -->
+    <div class="karx-breadcrumb-area" data-background="./assets/img/bg/breadcrumb_bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-section">
+                        <h2 class="karx-breadcrumb-title">Zahlung</h2>
+                        <ul class="breadcrumb-navigation">
+                            <li>
+                                <a href="index">Home</a>
+                            </li>
+                            <li>
+                                <span>Zahlung</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- karx-breadcrumb-area-end -->    
+    
+    <div class="karx-service-area pb-120 pt-120" data-background="./assets/img/services/pattern-bg1.png">   
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-10">
+                    <div class="karx-online-form-wrapper wow fadeInUp" data-wow-delay=".1s">
+                        <div class="karx-online-form-header">
+                            <h4 class="online-form-header-title pb-0 mb-0">Referenznummer eingeben</h4>
+                        </div>
+                         <div class="karx-online-form-body pd-20">
+                                    
+        <form id="referenceForm" method="GET">
+            <input type="text" id="referenceInput" name="referenceNumber" placeholder="Referenznummer eingeben">
+            <button type="submit">Senden<i class="fas fa-arrow-right-long"></i></button>
+        </form>
+     
+        <!-- Boîte de dialogue -->
+            <div id="dialog" style="
+                display:none;
+                position: fixed;
+                top: 55%;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(0.9);
+                width: 65vw;              
+                max-width: 450px;         
+                background: #fff;
+                padding: 18px;            
+                border-radius: 15px;
+                box-shadow: 0 6px 16px rgba(128, 128, 128, 0.5);
+                z-index: 1000;
+                text-align: left;
+                opacity: 0;
+                transition: all 0.3s ease-in-out;
+                font-family: Arial, sans-serif;
+                font-size: 13px;          
+            ">
+
+                <!-- Icône Cancel (X) -->
+                <span id="closeDialog" style="
+                    position: absolute;
+                    top: 10px;
+                    right: 15px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #555;
+                    cursor: pointer;
+                ">✖</span>
+
+                <h4 style="font-size:14px;">📄 Referenznummer eingeben</h4>
+                <p id="aktenzeichen" style="margin: 3px 0;">🆔 Aktenzeichen : </p>
+                <p style="margin: 3px 0;">⏰ Stunde : 2 Stunde</p>
+                <p style="margin: 3px 0;">🧹 Service : Umzug Reinigung</p>
+                <p style="margin: 3px 0;">💰 Price : 10000 CHF</p>
+
+                <!-- Formulaire -->
+                <form id="transactionForm" style="margin-top:12px;">
+                    <label for="transactionNumber" style="display:block; margin-top:8px; font-size:13px;">💳 Transaktionsnummer : ✅</label>
+                    <input type="text" id="transactionNumber" name="transactionNumber" placeholder="Geben Sie die Transaktionsnummer ein" required style="
+                        width: 100%;
+                        padding: 3px;
+                        margin-top: 3px;
+                        border-radius: 6px;
+                        border: 1px solid #ccc;
+                        box-sizing: border-box;
+                        font-size: 18px;
+                    ">
+
+                    <div style="text-align:center; margin-top:15px;">
+                        <img src="./assets/images/qrcode.jpeg" alt="media" style="
+                            width: 100%;
+                            height: 200px;
+                            object-fit: cover;
+                        ">
+                    </div>
+
+                    <div style="text-align:center;">
+                        <button id="submitButton" type="submit" style="
+                            padding: 6px 14px;
+                            background: #BB8B48;
+                            color: #fff;
+                            font-size: 18px;
+                            font-weight: bold;
+                            border: none;
+                            border-radius: 6px;
+                            cursor: pointer;
+                            transition: background 0.3s ease;
+                        ">Bestätigen</button>
+                    </div>
+                </form>
+            </div>
+
+            <script type="module" src="./src/scripts/pages/de_thank_you-2.js"></script>
+
+            <script src="./src/scripts/pages/de_thank_you-3.js"></script>
+
+
+            <script src="./src/scripts/pages/de_thank_you-4.js"></script>
+
+        <!-- Overlay -->
+        <div id="overlay" style="
+            display:none;
+            position: fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.4s ease-in-out;
+        "></div>
+
+        <script src="./src/scripts/pages/de_thank_you-5.js"></script>
+
+                         </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer-area-start -->
+    <!-- footer-area-start -->
+    <!-- include:footer-eed8cf25df51.html -->
+    <!-- footer-area-end -->
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- back to top end -->
+
+    <!-- JS here -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/swipper-bundle.min.js"></script>
+    <script src="./assets/js/knob.min.js"></script>
+    <script src="./assets/js/jquery.meanmenu.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/isotope.pkgd.js"></script>
+    <script src="./assets/js/imageloaded.js"></script>
+    <script src="./assets/js/odometer.min.js"></script>
+    <script src="./assets/js/appear.min.js"></script>
+    <script src="./assets/js/back-to-top.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+<!-- 
+     <script type="text/javascript">
+    function get_PriceData()
+     {
+       
+        var book_id = $('.service').data('book');
+        var hours =  $('.service').val();
+
+
+      $.ajax({
+          type: 'POST',
+          crossDomain: true,
+          url       :'https://marthacleanbesia.ch/pview/get_price_details', 
+          data: {
+             book_id:book_id,hours:hours
+             
+          },
+           dataType: 'json',
+          success: function (data) {
+             // alert(data.price);
+              if (data.status == 1) {
+                     
+                   
+                    
+                    $('#price').val(data.total_price);
+                    
+                    
+                                
+              }
+
+          }
+      });
+     }
+
+
+      $( "#Book_Register" ).submit(function(event) {
+
+            event.preventDefault();
+              var err=0;
+           
+            var name=$('.name').val();
+            var email=$('.email').val();
+            var mobile = $(".mobile").val();
+            var location = $(".location").val();
+             var rooms = $(".rooms").val();
+             var address = $(".address").val();
+            
+             if(name.trim()!=""){
+               $(".name").removeClass('err');
+            } else {
+               $(".name").addClass('err');
+               err++;
+            }
+           
+
+
+             if(rooms.trim()!=""){
+               $(".rooms").removeClass('err');
+            } else {
+               $(".rooms").addClass('err');
+               err++;
+            }
+            
+          
+           
+            
+             if(address.trim()!=""){
+               $(".address").removeClass('err');
+            } else {
+               $(".address").addClass('err');
+               err++;
+            }
+
+             if(email.trim()!=""){
+               $(".email").removeClass('err');
+            } else {
+               $(".email").addClass('err');
+               err++;
+            }
+
+             if(mobile.trim()!=""){
+               $(".mobile").removeClass('err');
+            } else {
+               $(".mobile").addClass('err');
+               err++;
+            }
+
+             if(location.trim()!=""){
+               $(".location").removeClass('err');
+            } else {
+               $(".location").addClass('err');
+               err++;
+            }
+
+           
+
+          
+
+            if(err == 0)
+            {
+
+
+            $('.reg-btn').prop('disabled',true);
+             $('.reg-btn').html('Registering...');
+            $.ajax({
+                type      : 'POST',
+                crossDomain : true,
+                url       : 'https://marthacleanbesia.ch/pview/book_service', 
+                 method:"POST",  
+                     data:new FormData(this),  
+                     contentType: false,  
+                     cache: false,  
+                     processData:false,  
+                     dataType: "json",
+                success   : function(data) {
+                   
+                if(data.login_status=="Success"){
+              
+                alert('Registered Successfully, we will get back to you soon');
+                
+                   window.location.href = data.redirect_url;     
+                                
+                }
+                else if(data.login_status=="Error")
+                {
+                     alert('Something went Worng,pls try again later');
+                         $('.reg-btn').prop('disabled',false);
+                         $('.reg-btn').html('Submit');
+                }
+        
+                
+                
+                }
+            });
+         }  
+         else 
+         {
+            alert('Please fill required details');
+         } 
+          
+         });
+
+
+       $('.custom-input').keyup(function(){
+   
+    if( $(this).val() ) 
+    {
+          $(this).removeClass('err');
+    }
+    
+});
+
+    </script> -->
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+
+        /* Icon defaults */
+        i {
+            font-weight: 100;
+            margin-right: 8px;
+            font-size: 1em;
+        }
+
+        i.fa-phone-flip {
+            transform: rotate(90deg);
+        }
+
+        .service-details-image {
+            position: relative;
+        }
+
+        .service-details-image img {
+            border-radius: 26px;
+            box-shadow: 0 30px 80px rgba(15, 29, 45, 0.15);
+        }
+
+        .service-rate-card {
+            position: absolute;
+            left: 30px;
+            bottom: 30px;
+            background: #fff;
+            border-radius: 16px;
+            padding: 20px 28px;
+            box-shadow: 0 30px 80px rgba(15, 29, 45, 0.15);
+            text-align: center;
+        }
+
+        .service-rate-card h3 {
+            margin-bottom: 0;
+            font-size: 34px;
+            color: #ff5e14;
+        }
+
+        .service-rate-card span {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+            color: #6a7989;
+        }
+
+        .service-points {
+            list-style: none;
+            padding-left: 0;
+            margin: 30px 0;
+        }
+
+        .service-points li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
+            font-weight: 500;
+            color: #0f1d2d;
+        }
+
+        .service-points li i {
+            color: #ff5e14;
+            margin-right: 12px;
+            font-size: 1.1em;
+        }
+
+        .detail-meta-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .detail-meta-card {
+            flex: 1 1 200px;
+            background: #f6f8fc;
+            border-radius: 16px;
+            padding: 24px;
+        }
+
+        .detail-meta-card h4 {
+            margin-bottom: 6px;
+            font-size: 32px;
+            color: #0f1d2d;
+        }
+
+        .detail-meta-card p {
+            margin-bottom: 0;
+            color: #5a6b7a;
+        }
+
+        .service-detail-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .service-detail-list li {
+            display: flex;
+            margin-bottom: 12px;
+            color: #5a6b7a;
+        }
+
+        .service-detail-list i {
+            color: #ff5e14;
+            margin-right: 12px;
+            margin-top: 4px;
+        }
+
+        .service-registration-card {
+            background: #0f1d2d;
+            color: #fff;
+            border-radius: 22px;
+            padding: 40px;
+        }
+
+        .service-registration-card h3 {
+            color: #fff;
+        }
+
+        .service-registration-card p {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .service-registration-card a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        .service-detail-form label {
+            font-weight: 600;
+            margin-top: 14px;
+        }
+
+        .service-detail-form input,
+        .service-detail-form textarea,
+        .service-detail-form select {
+            width: 100%;
+            border: 1px solid #dde3ea;
+            border-radius: 12px;
+            padding: 12px 16px;
+            margin-top: 8px;
+        }
+
+        #serviceDetailFeedback {
+            margin-top: 14px;
+            font-weight: 600;
+        }
+    

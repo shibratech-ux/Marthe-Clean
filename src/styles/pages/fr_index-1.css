@@ -1,0 +1,11 @@
+
+            /* Style fin pour toutes les icônes */
+            i {
+                font-weight: 100;   /* rend le trait plus léger */
+                margin-right: 8px;  /* espace entre icône et texte */
+                font-size: 1em;   /* ajuste la taille */
+            }
+            i.fa-phone-flip {
+                transform: rotate(90deg); /* rotation complète */
+            }
+        
